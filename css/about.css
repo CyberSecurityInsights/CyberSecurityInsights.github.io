@@ -407,6 +407,11 @@ body {
         border-radius: 0px;
     }
 
+    .info-container h2{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
     .services-container li:not(:last-child){
         margin-bottom: 2rem;
     }
@@ -418,6 +423,11 @@ body {
 
     .services-container ul{
         flex-direction: column; 
+    }
+
+    .services-container li {
+        text-align: justify;
+        word-spacing: -4px;
     }
 
     .plans-container {
