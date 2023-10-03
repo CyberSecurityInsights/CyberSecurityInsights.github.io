@@ -425,7 +425,7 @@ body {
         flex-direction: column; 
     }
 
-    .services-container li {
+    .services-container li p{
         text-align: justify;
         word-spacing: -4px;
     }
