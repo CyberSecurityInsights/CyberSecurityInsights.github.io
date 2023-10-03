@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    background-color: #007bff;
+    background-color: #fd3463;
     font-size: 62.5%;
 }
 
@@ -16,9 +16,12 @@
 
 ::selection {
     color: #fff;
-    background: #007bff;
+    background: #fd3463;
 }
 
+.fa-house{
+    color: #fd3463;
+}
 /* Home - index.html */
  
 
@@ -55,7 +58,7 @@
 .start_btn button {
     font-size: 20px;
     font-weight: 500;
-    color: #007bff;
+    color: #fd3463;
     width: 250px;
     height: 75px;
     padding: 15px 20px;
@@ -69,7 +72,7 @@
 .start_btn #button_score, #button_home {
     font-size: 20px;
     font-weight: 500;
-    color: #007bff;
+    color: #fd3463;
     width: 250px;
     height: 75px;
     padding: 15px 20px;
@@ -116,7 +119,7 @@
 
 .info_box .info-list .info span {
     font-weight: 600;
-    color: #007bff;
+    color: #fd3463;
 }
 
 .info_box .buttons {
@@ -138,36 +141,36 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #fd3463;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart {
     color: #fff;
-    background: #007bff;
+    background: #fd3463;
 }
 
 .buttons button.restart:hover {
-    background: #0263ca;
+    background: #FF5D8F;
 }
 
 .buttons button.salvar {
     color: #fff;
-    background: #007bff;
+    background: #fd3463;
 }
 
 .buttons button.salvar:hover {
-    background: #0263ca;
+    background: #FF87AB;
 }
 
 .buttons button.quit {
-    color: #007bff;
+    color: #fd3463;
     background: #fff;
 }
 
 .buttons button.quit:hover {
     color: #fff;
-    background: #007bff;
+    background: #fd3463;
 }
 
 /* END - Home - index.html */
@@ -202,9 +205,9 @@
 }
 
 .quiz_box header .timer {
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    color: #FF87AB;
+    background: #FADDE1;
+    border: 1px solid #F4ACB7;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -229,8 +232,8 @@
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
+    background: #FFCAD4;
+    border: 1px solid #FF87AB;
     user-select: none;
 }
 
@@ -239,7 +242,7 @@
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: #fd3463;
     max-width: 100%;
 }
 
@@ -259,8 +262,8 @@ section .option_list {
 }
 
 section .option_list .option {
-    background: aliceblue;
-    border: 1px solid #84c5fe;
+    background: #FFCAD4;
+    border: 1px solid #FADDE1;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -277,21 +280,21 @@ section .option_list .option:last-child {
 }
 
 section .option_list .option:hover {
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    color: #FF5D8F;
+    background: #FF5D8F;
+    border: 1px solid #FF5D8F;
 }
 
 section .option_list .option.correct {
     color: #155724;
-    background: #d4edda;
-    border: 1px solid #c3e6cb;
+    background: #FFA6C1;
+    border: 1px solid #FFA6C1;
 }
 
 section .option_list .option.incorrect {
     color: #721c24;
-    background: #f8d7da;
-    border: 1px solid #f5c6cb;
+    background: #FFA6C1;
+    border: 1px solid #FFA6C1;
 }
 
 section .option_list .option.disabled {
@@ -324,7 +327,7 @@ section .option_list .option .icon {
 
 .choice-prefix {
     padding: 1rem 2rem;
-    background-color: #56a5eb;
+    background-color: #FF87AB;
     color: white;
 }
 
@@ -378,8 +381,8 @@ footer button {
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: #fd3463;
+    border: 1px solid #fd3463;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -388,7 +391,7 @@ footer button {
 }
 
 footer button:hover {
-    background: #0263ca;
+    background: #FF5D8F;
 }
 
 footer button.show {
@@ -417,7 +420,7 @@ footer button.show {
 
 .result_box .icon {
     font-size: 100px;
-    color: #007bff;
+    color: #fd3463;
     margin-bottom: 10px;
 }
 
@@ -453,7 +456,7 @@ footer button.show {
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #fd3463;
     transition: all 0.3s ease;
 }
 
@@ -489,7 +492,7 @@ footer button.show {
     margin-top: 4rem;
     border: 1.6rem solid white;
     border-radius: 50%;
-    border-top: 1.6rem solid #56a5eb;
+    border-top: 1.6rem solid #FFA6C1;
     width: 12rem;
     height: 12rem;
     animation: spin 2s linear infinite;

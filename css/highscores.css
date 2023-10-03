@@ -26,7 +26,7 @@
 
 h1 {
     font-size: 3.4rem;
-    color: #56a5eb;
+    color: #fd3463;
     margin-bottom: 1.5rem;
 }  
 
@@ -62,13 +62,13 @@ h1 {
 .container #go_home,#quiz {
     font-size: 20px;
     font-weight: 500;
-    color: #007bff;
+    color: #fd3463;
     padding: 15px 35px;
     outline: none;
     border: none;
     border-radius: 5px;
     background: #fff;
-    border: 1px solid #007bff;
+    border: 1px solid #fd3463;
     cursor: pointer;
     text-decoration: none;
     margin-bottom: 1em;
@@ -76,7 +76,7 @@ h1 {
 
 .container #go_home:hover , #quiz:hover{
     color: #fff;
-    background: #007bff;
+    background: #fd3463;
     transform: scale(1.025);
 }
 
