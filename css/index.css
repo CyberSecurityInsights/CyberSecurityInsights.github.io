@@ -1,0 +1,563 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-6');                
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gotham", sans-serif;
+}
+
+a{
+    color: black;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 7rem;
+}
+
+.logo-container {
+    display: flex;
+    position: relative;
+}
+
+.csi-logo .csi-image{
+    max-width:350px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 6rem;
+    top: -4rem;
+}
+
+.unima-logo .unima-image {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 6rem;
+    top: 2.4rem;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url("../media/banner1920x1008.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
+
+.banner .text-banner {
+    padding-top: 13rem;
+    padding-left: 4rem;
+    color: #fff;
+    margin-left: 3rem;
+}
+
+.banner .text-banner h1{
+    font-size: 2.7rem;
+    width: 50%;
+    font-weight: 900;
+}
+
+.banner .text-banner p{
+    padding-top: 1rem;
+    font-weight: lighter;
+    width: 45%;
+}
+
+/* Items */
+
+.items {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 0.8rem 3rem 1rem 3rem;
+    margin-top: -2.5rem;
+    border-radius: 1rem;
+    flex-shrink: 1;
+}
+
+.item a{
+    text-decoration: none;
+    color: #157792;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+/* news */
+
+.news-container{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-image {
+    max-width: 180px;
+    flex: 0 0 auto;
+}
+
+.news-image img {
+    width: 100%;
+    height: 180px;
+    max-width: 100%;
+}
+
+.news-content {
+    flex: 1 1 200px;
+}
+
+.news-content h2{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.news-content h3{
+    margin-bottom: 1rem;
+    width: 61%;
+    font-size: 1.4rem;
+}
+
+.news-content p{
+    margin-bottom: 1rem;
+}
+
+.news:last-child{
+    margin-bottom: 4rem;
+}
+
+/* footer */
+
+.blue {
+    background-color: #1d6c81;
+    height: 11rem;
+}
+
+.contact-container {
+    background-color: #ff0673;
+    height: 14rem;
+    margin: -18rem 12rem 0 12rem;
+    border-radius: 4rem;
+    position: relative;
+}
+
+.contact-container h2 {
+    color: white;
+    text-align: center;
+    padding-top: 2.5rem;
+    font-weight: lighter;
+}
+
+.contact-container input[type='email'] {
+    padding: 1rem 0 1rem 3rem;
+    width: 40rem;
+    height: 4rem;
+    align-items: center;
+    border-radius: 35px;
+    border: none;
+    margin: 1rem auto;
+    position: relative;
+    display: block;
+}
+
+.contact-container input[type="submit"]{
+    border: none;
+    border-radius: 35px;
+    height: 2rem;
+    width: 8rem;
+    position: relative;
+    font-size: 1rem;
+    background-color: #002bd8;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.quiz-container{
+    background-color: #ff0673;
+    border-radius: 1rem;
+    height: 22rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    max-width: 22rem;
+    max-height: 22rem;
+}
+
+.quiz-container h1{
+    color: white;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.quiz-container span{
+    padding-top: 2rem;
+    padding-bottom: 0.4rem;
+    padding-left: 2.5rem;
+    display: block;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.quiz-container .user-input{
+    width: 80%;
+    margin: 0 2rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+}
+
+.quiz-button{
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: block;
+    width: 20%;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #002bd8;
+    color: white;
+    text-align: center;
+    padding: 0.7rem 1rem 1rem 1rem;
+}
+
+.quiz-button:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 2600px){
+    .csi-logo .csi-image{
+        width: 450px;
+    }
+
+    .banner {
+        height: 70rem;
+    }
+
+    .banner .text-banner {
+        padding-top: 20rem;
+        padding-left: 10rem;
+    }
+
+    .banner .text-banner h1{
+        font-size: 6rem;
+        width: 30%;
+    }
+
+    .banner .text-banner p{
+        font-size: 2.5rem;
+    }
+
+    .items{
+        gap: 4rem;
+    }
+
+    .item a{
+        font-size: 3rem;
+    }
+
+    .news-container{
+        margin-left: 10rem;
+    }
+
+    .news{
+        gap: 4rem;
+    }
+
+    .news-content h2{
+        font-size: 3rem;
+    }
+
+    .news-content h3{
+        font-size: 3rem;
+    }
+
+    .news-content p, a {
+        font-size: 2.5rem;
+    }
+    
+    .news:last-child{
+        margin-bottom: 10rem;
+    }
+
+    .news-image{
+        max-width: 450px;
+    }
+
+    .contact-container {
+        background-color: #fd3463;
+        margin: -15rem auto 0 auto;
+        padding: 1rem;
+        width: 50%;
+    }
+    
+    .contact-container h2 {
+        margin-top: -2.8rem;
+        font-size: 3rem;
+    }
+
+    .contact-container input[type='email'] {
+        width: 80%;
+        margin: 1rem auto;
+        font-size: 2rem;
+    }
+
+    .contact-container input[type='submit'] {
+        margin: 0rem auto 0 auto;
+        font-size: 2rem;
+        width: auto;
+        padding: 0.5rem 2rem 2.9rem 2rem;
+    }
+}
+
+
+@media (max-width:1500px){
+    .news:last-child{
+        margin-bottom: 10rem;
+    }   
+}
+
+@media (max-width: 1100px) {
+
+    .contact-container {
+        background-color: #fd3463;
+        margin: -15rem 3rem auto 3rem;
+        padding: 1rem;
+    }
+    
+    .contact-container h2 {
+        margin-top: -2.8rem;
+        font-size: 2rem;
+    }
+
+    .contact-container input[type='email'] {
+        width: 80%;
+        margin: 2rem auto;
+        font-size: 1.4rem;
+    }
+
+    .contact-container input[type='submit'] {
+        margin: -1rem auto auto auto;
+        font-size: 1.5rem;
+        width: auto;
+        padding: 1rem 2rem 2.4rem 2rem;
+    }
+
+    .news-container{
+        margin-left: 5rem;
+    }
+
+    .news{
+        margin: 0;
+    }
+
+    .news:last-child{
+        padding-bottom: 4rem;
+    }
+
+    .banner .text-banner h1{
+        font-size: 2.5rem;
+        width: 50%;
+        font-weight: 900;
+    }
+    
+    .banner .text-banner p{
+        padding-top: 1rem;
+        font-weight: lighter;
+        font-size: 1.2rem;
+        width: 50%;
+    }
+
+} 
+
+@media (max-width: 900px){
+    
+       .contact-container {
+        background-color: #fd3463;
+        margin: -15rem 1rem auto 1rem;
+        padding: 1rem;
+    }
+    
+        .contact-container h2 {
+            margin-top: -2rem;
+            font-size: 1.5rem;
+        }
+    
+        .contact-container input[type='email'] {
+            width: 80%;
+            margin: 1.5rem auto;
+            font-size: 1rem;
+        }
+    
+        .contact-container input[type='submit'] {
+            margin: 1rem auto auto auto;
+            font-size: 1rem;
+        }        
+
+        .news-container{
+        margin-left: 2rem;
+    } 
+
+        .items{
+            gap: 0.5rem;
+        }
+
+        .banner .text-banner{
+            margin-left: 0.5rem;
+        }
+    
+        .banner .text-banner h1{
+            font-size: 2.5rem;
+            width: 70%;
+            font-weight: 900;
+        }
+        
+        .banner .text-banner p{
+            padding-top: 1rem;
+            font-weight: lighter;
+            width: 60%;
+        }
+
+        .news{
+            margin: 0;
+        }
+
+        .news:last-child{
+            margin-bottom: 5rem;
+        }
+
+}
+
+@media (max-width: 576px) {
+
+    .contact-container {
+        background-color: #fd3463;
+        margin: -14rem 1rem auto 1rem;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .contact-container h2 {
+        margin-top: -2rem;
+        font-size: 1.2rem;
+    }
+
+    .contact-container input[type='email'] {
+        width: 80%;
+        margin: 1rem auto 1rem auto;
+        font-size: 0.8rem;
+    }
+
+    .contact-container input[type='submit'] {
+        margin: auto;
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .item{
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+    }
+
+    .item a{
+        font-size: 1rem;
+    }
+
+    .banner{
+        background-image: url("../media/banner576.png");
+        background-size: contain;
+    }
+
+    .csi-logo .csi-image{
+        max-width:250px;
+        max-height:180px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 0rem;
+        top: -1.5rem;
+    }
+    
+    .unima-logo .unima-image {
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        right: 0rem;
+        top: 2.4rem;
+    }
+
+    .news{
+        margin: 0;
+    }
+
+    .news:last-child{
+        margin-bottom: 3rem;
+    }
+
+    .news h2{
+        font-size: 1rem;
+    }
+
+    .news p{
+        font-size: 0.9rem;
+    }
+
+    .banner{
+        height: 15rem;
+    }
+
+    .banner .text-banner{
+        margin: 0;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
+    .banner .text-banner h1{
+        padding-top: 1rem;
+        width: 45%;
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .banner .text-banner p{
+        font-size: 0.7rem;
+        width: 50%;
+        padding-top: 1rem;
+    }
+
+    .news-container{
+        margin-top: 2rem;
+    }
+
+    .news-content h3{
+        width: 100%;
+    }
+}
