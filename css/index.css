@@ -336,10 +336,39 @@ a{
 }
 
 
-@media (max-width:1500px){
+@media screen and (min-width: 1920px) {
+    .banner .text-banner h1{
+        margin-top: 5rem;
+        margin-left: 3.8rem;
+        width: 30%;
+    }
+
+    .banner .text-banner p {
+        margin-left: 3.8rem;
+        font-size: 1.5rem;
+        width: 40%;
+    }
+
+    .news:last-child{
+        margin-bottom: 10rem;
+    }
+}
+
+@media (max-width: 1900px){
     .news:last-child{
         margin-bottom: 10rem;
     }   
+
+    .banner .text-banner h1{
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 1700px){
+    .banner .text-banner h1{
+        width: 40%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -441,6 +470,7 @@ a{
             padding-top: 1rem;
             font-weight: lighter;
             width: 60%;
+            font-size: 1rem;
         }
 
         .news{

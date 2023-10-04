@@ -4,5 +4,5 @@ const password = localStorage.getItem("senha");
 const userSpan = document.getElementsByClassName("user")[0];
 const pwdSpan = document.getElementsByClassName("pwd")[0];
 
-userSpan.textContent = `Usuário: ${username}`;
-pwdSpan.textContent = `Senha: ${password}`;
+userSpan.textContent = `${username}`;
+pwdSpan.textContent = `${password}`;
