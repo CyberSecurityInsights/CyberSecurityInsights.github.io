@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-6');   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gotham", sans-serif;
+}
+
+body{
+    background-color: #2596be;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 7rem;
+    background-color: white;
+    margin-bottom: 4rem;
+}
+
+.logo-container {
+    display: flex;
+    position: relative;
+}
+
+.csi-logo .csi-image{
+    max-width:350px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 6rem;
+    top: -4rem;
+}
+
+.unima-logo .unima-image {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 6rem;
+    top: 2.4rem;
+}
+
+.tips-title{
+    width: 80%;
+    height: 4rem;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+.tips-title h1{
+    text-align: center;
+    line-height: 4rem;
+    color: #fd3463;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.tips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.tip{
+    background-color: white;
+    border-radius: 0.8rem;
+    text-align: center;
+    padding: 1rem;
+    flex: 0 0 30%;
+}
+
+.tip h2{
+    color: #fd3463;
+    margin: 1.5rem 0;
+}
+
+.tip p {
+    color: #2596be;
+}
+
+@media (max-width: 576px){
+    .csi-logo .csi-image{
+        max-width:250px;
+        max-height:180px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 0rem;
+        top: -1.5rem;
+    }
+
+    .unima-logo .unima-image{
+        right: 0;
+    }
+
+    .tips{
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
