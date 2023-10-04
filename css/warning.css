@@ -164,7 +164,7 @@ a{
     }
 }
 
-@media (max-width: 570px){
+@media (max-width: 576px){
     .data .user{
         margin-top: -16rem;
         margin-left: 13.9rem;
@@ -175,7 +175,15 @@ a{
     }
 
     .info-text{
-        width: 70%;
+        width: 75%;
         word-spacing: -2.8px;
+    }
+
+    .info-text{
+        margin-left: 4.9rem;
+    }
+
+    .quiz-button, .text{
+        margin-left: 2.7rem;
     }
 }
