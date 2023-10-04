@@ -183,7 +183,11 @@ a{
         margin-left: 4.9rem;
     }
 
-    .quiz-button, .text{
+    .text{
         margin-left: 2.7rem;
+    }
+
+    .quiz-button{
+        margin-left: 3.1rem;
     }
 }
