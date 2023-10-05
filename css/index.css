@@ -912,3 +912,109 @@ table {
     }
 
     }
+
+@media only screen and (max-device-width: 576px) {
+    
+    .contact-container {
+        background-color: #fd3463;
+        margin: -14rem 1rem auto 1rem;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .contact-container h2 {
+        margin-top: -2rem;
+        font-size: 1.2rem;
+    }
+
+    .contact-container input[type='email'] {
+        width: 80%;
+        margin: 1rem auto 1rem auto;
+        font-size: 0.8rem;
+    }
+
+    .contact-container input[type='submit'] {
+        margin: auto;
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .item{
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+    }
+
+    .item a{
+        font-size: 1rem;
+    }
+
+    .banner{
+        background-image: url("../media/banner576.png");
+        background-size: contain;
+    }
+
+    .csi-logo .csi-image{
+        max-width:250px;
+        max-height:180px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 0rem;
+        top: -1.5rem;
+    }
+    
+    .unima-logo .unima-image {
+        max-width:200px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        right: 0rem;
+        top: 2.4rem;
+    }
+
+    .news{
+        margin: 0;
+        padding-right: 3rem;
+    }
+
+    .news:last-child{
+        margin-bottom: 3rem;
+    }
+
+    .news h2{
+        font-size: 1rem;
+    }
+
+    .news p{
+        font-size: 0.9rem;
+    }
+
+    .banner{
+        height: 15rem;
+    }
+
+    .banner .text-banner{
+        margin: 0;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
+    .banner .text-banner h1{
+        padding-top: 1rem;
+        width: 45%;
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .banner .text-banner p{
+        font-size: 0.7rem;
+        width: 50%;
+        padding-top: 1rem;
+    }
+
+    .news-content h3{
+        width: 100%;
+    }
+}
