@@ -11,6 +11,10 @@ a{
     color: black;
 }
 
+body{
+    -webkit-text-size-adjust: 100%;
+}
+
 /* header */
 
 .header {
