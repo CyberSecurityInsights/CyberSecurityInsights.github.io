@@ -869,6 +869,7 @@ table {
 
     .news{
         margin: 0;
+        padding-right: 3rem;
     }
 
     .news:last-child{
@@ -906,21 +907,8 @@ table {
         padding-top: 1rem;
     }
 
-    .news-container{
-        margin-top: 2rem;
-    }
-
     .news-content h3{
         width: 100%;
     }
 
-    .quiz-container{
-        margin-left: -0.5rem;
     }
-}
-
-@media (max-width: 375px){
-    .quiz-container{
-        margin-left: -1rem;
-    }
-}
