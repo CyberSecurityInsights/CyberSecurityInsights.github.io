@@ -13,11 +13,9 @@ a{
   background-repeat: no-repeat;
   vertical-align: middle;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  tap-highlight-color: rgba(0,0,0,0);
   -webkit-appearance: none;
   appearance: none;
   -webkit-focus-ring-color: rgba(0,0,0,0);
-  focus-ring-color: rgba(0,0,0,0);
   resize: none;
   outline: 0;
 }
@@ -260,6 +258,7 @@ html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button; /* 2 */
+    appearance: button;
 }
 
 /**
@@ -270,6 +269,7 @@ input[type="submit"] {
 
 input[type="search"] {
     -webkit-appearance: textfield; /* 1 */
+    appearance: textfield;
     -webkit-box-sizing: content-box; /* 2 */
     box-sizing: content-box;
 }
@@ -912,5 +912,15 @@ table {
 
     .news-content h3{
         width: 100%;
+    }
+
+    .quiz-container{
+        margin-left: -0.5rem;
+    }
+}
+
+@media (max-width: 375px){
+    .quiz-container{
+        margin-left: -1rem;
     }
 }
