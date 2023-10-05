@@ -913,7 +913,7 @@ table {
 
     }
 
-@media only screen and (max-device-width: 576px) {
+@media only screen and (max-device-width: 490px) {
     
     .contact-container {
         background-color: #fd3463;
