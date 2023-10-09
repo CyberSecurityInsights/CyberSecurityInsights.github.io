@@ -307,36 +307,35 @@ body{
 
 .header {
     width: 100%;
-    height: 7rem;
+    height: 100px;
     background-color: white;
-    margin-bottom: 4rem;
 }
 
 .logo-container {
     display: flex;
-    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
 
 .csi-logo .csi-image{
-    max-width:350px;
-    max-height:250px;
-    width: auto;
+    width: 100px;
     height: auto;
-    position: absolute;
-    left: 6rem;
-    top: -4rem;
 }
 
 .unima-logo .unima-image {
-    max-width:200px;
-    max-height:150px;
-    width: auto;
+    width: 200px;
     height: auto;
-    position: absolute;
-    right: 6rem;
-    top: 2.4rem;
 }
-
+@media (max-width: 768px){
+    .logo-container {
+        flex-direction: column;
+        /* background: blueviolet; */
+    }
+    .csi-logo .csi-image, .unima-logo .unima-image {
+        max-width: 100px;
+    }
+}
 .tips-title{
     width: 80%;
     height: 4rem;
@@ -380,20 +379,6 @@ body{
 }
 
 @media (max-width: 576px){
-    .csi-logo .csi-image{
-        max-width:250px;
-        max-height:180px;
-        width: auto;
-        height: auto;
-        position: absolute;
-        left: 0rem;
-        top: -1.5rem;
-    }
-
-    .unima-logo .unima-image{
-        right: 0;
-    }
-
     .tips{
         flex-direction: column;
         padding: 1rem;
