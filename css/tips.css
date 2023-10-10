@@ -318,13 +318,13 @@ body{
 }
 
 .csi-logo .csi-image{
-    max-width:350px;
+    max-width:250px;
     max-height:250px;
     width: auto;
     height: auto;
     position: absolute;
     left: 6rem;
-    top: -4rem;
+    top: 0.5rem;
 }
 
 .unima-logo .unima-image {
