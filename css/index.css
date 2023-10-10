@@ -779,14 +779,14 @@ form {
 
     .contact-container {
         background-color: #fd3463;
-        width: 85%;
+        width: 100%;
         margin: -4rem 1rem auto 1rem;
         padding: 1rem;
         height: auto;
     }
 
     .contact-container h2 {
-        margin-top: 2rem;
+        margin-top: 0rem;
         font-size: 1.2rem;
     }
 
