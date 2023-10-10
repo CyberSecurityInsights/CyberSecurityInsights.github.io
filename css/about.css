@@ -322,13 +322,13 @@ body {
 }
 
 .csi-logo .csi-image{
-    max-width:350px;
+    max-width:250px;
     max-height:250px;
     width: auto;
     height: auto;
     position: absolute;
     left: 6rem;
-    top: -4rem;
+    top: 0.5rem;
 }
 
 .unima-logo .unima-image {
@@ -484,8 +484,6 @@ body {
 .plan .ods1{
     width: 140px;
     height: 140px;
-    border-radius: 50%;
-    text-align: center;
     line-height: 140px;
     margin: 0 auto -46px;
     position: relative;
@@ -496,8 +494,6 @@ body {
 .plan .ods2{
     width: 140px;
     height: 140px;
-    border-radius: 50%;
-    text-align: center;
     line-height: 140px;
     margin: 0 auto -46px;
     position: relative;
@@ -508,9 +504,6 @@ body {
 .plan .ods3{
     width: 140px;
     height: 140px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 140px;
     margin: 0 auto -46px;
     position: relative;
     background-image: url("https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-16.svg");
@@ -679,13 +672,13 @@ body {
     }
 
     .csi-logo .csi-image{
-        max-width:250px;
+        max-width:200px;
         max-height:180px;
         width: auto;
         height: auto;
         position: absolute;
         left: 0rem;
-        top: -1.5rem;
+        top: 1.2rem;
     }
 
     .unima-logo .unima-image{

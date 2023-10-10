@@ -317,13 +317,13 @@ table {
 }
 
 .csi-logo .csi-image{
-    max-width:350px;
+    max-width:250px;
     max-height:250px;
     width: auto;
     height: auto;
     position: absolute;
     left: 6rem;
-    top: -4rem;
+    top: 0.5rem;
 }
 
 .unima-logo .unima-image {
@@ -848,23 +848,23 @@ table {
     }
 
     .csi-logo .csi-image{
-        max-width:250px;
+        max-width:200px;
         max-height:180px;
         width: auto;
         height: auto;
         position: absolute;
         left: 0rem;
-        top: -1.5rem;
+        top: 1.8rem;
     }
     
     .unima-logo .unima-image {
-        max-width:200px;
+        max-width:180px;
         max-height:150px;
         width: auto;
         height: auto;
         position: absolute;
         right: 0rem;
-        top: 2.4rem;
+        top: 2.6rem;
     }
 
     .news{
