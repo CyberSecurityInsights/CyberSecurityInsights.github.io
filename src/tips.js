@@ -10,10 +10,6 @@ const h1 = document.querySelector(".quiz-title");
 
 h1.style.display = "none"
 
-tipsLink.addEventListener("click", function() {
-    window.location.href = "../tips.html";
-});
-
 quizLink.addEventListener("click", function(){
     if (quizLink.textContent === "Notícias"){
         exibirNoticias();
@@ -95,3 +91,4 @@ function exibirNoticias() {
     noticiasDiv.style.marginBottom = "0"
 
 }
+
