@@ -458,14 +458,15 @@ a{
 @media (max-width: 576px){
     .data .user{
         margin-top: -16rem;
-        margin-left: 13.9rem;
+        margin-left: 11rem;
     }
     .data .pwd{
         margin-top: -14.6rem;
-        margin-left: 13.2rem;
+        margin-left: 11rem;
     }
 
     .info-text{
+        padding-top: 2rem;
         width: 75%;
         word-spacing: -2.8px;
     }
